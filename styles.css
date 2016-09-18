@@ -1,0 +1,83 @@
+.toolbar{
+    display: block;
+    font-size: 18pt;
+    /*float: left;*/
+    list-style: none;
+    width: auto;
+    position: fixed;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgb(255, 255, 255);
+}
+
+.toolbar_items{
+    float: left;
+    padding-right: 50px;
+}
+
+.menu{
+    width: 100%;
+    height: auto;
+}
+
+.short_description{
+    /*float: left;*/
+    padding-top: 100px;
+    font-size: 24pt;
+    padding-bottom: 50px;
+}
+
+.description{
+    padding-top: 100px;
+}
+
+.sd{
+    float: left;
+    padding-right: 50px;
+}
+
+.name{
+    font-size: 70pt;
+    height: auto;
+    width: auto;
+    padding-top: 250px;
+    /*margin-top: 250px;*/
+    padding-bottom: 100px;
+}
+
+body{
+    /*Poppins, Catamaran, Quicksand, Signika*/
+    margin-left: 50px;
+    font-family: 'Ubuntu', "Trebuchet MS", Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.skill_name{
+    float: left;
+    width: auto;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.skill_amount{
+    font-size: 30px;
+    margin-left: 350px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 17px;
+    padding-left: 5px;
+    width: 400px;
+}
+
+section.skill{
+    margin-bottom: 10px;
+}
+
+.category{
+    /*padding-left: 30px;*/
+    padding-top: 100px;
+}
+
+h3 {
+    font-size: 50pt;
+}
