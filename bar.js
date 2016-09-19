@@ -10,6 +10,29 @@ for(var i = 0; i  < bars.length; i++){
     bars[i].innerHTML += rest;
 }
 
+var desc = $(".sd")
+for(var i = 0; i < desc.length; i++){
+    $(desc[i]).fadeOut(1);
+}
+
+function show0() {
+    $(desc[0]).fadeIn(1000);
+    setTimeout(show1, 1500);
+}
+function show1() {
+    $(desc[1]).fadeIn(1000);
+    setTimeout(show2, 1500);
+}
+function show2() {
+    $(desc[2]).fadeIn(1000);
+    setTimeout(show3, 1500);
+}
+function show3() {
+    $(desc[3]).fadeIn(1000);
+}
+
+setTimeout(show0, 1000);
+
 function blinkOut(){
     $(".end_hash").css("background-color", "black");
     $(".end_hash").css("color", "white");
