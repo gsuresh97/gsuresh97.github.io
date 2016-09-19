@@ -1,18 +1,24 @@
 .toolbar{
     display: block;
     font-size: 18pt;
-    /*float: left;*/
+    background-color: rgb(255, 255, 255);
     list-style: none;
     width: auto;
     position: fixed;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    background-color: rgb(255, 255, 255);
+    margin-left: -25px;
 }
 
 .toolbar_items{
     float: left;
-    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+
+}
+
+.toolbar_items:hover{
+    border-bottom: 6px solid black;
 }
 
 .menu{
@@ -66,7 +72,12 @@ body{
     border-width: 2px;
     border-radius: 17px;
     padding-left: 5px;
-    width: 400px;
+    width: 420px;
+}
+
+.end_hash{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
 }
 
 section.skill{
