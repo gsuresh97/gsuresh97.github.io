@@ -1,11 +1,14 @@
+var filler = "|";
+
 var bars = document.getElementsByClassName('skill_amount');
 for(var i = 0; i  < bars.length; i++){
     var l = bars[i].innerHTML.substring(0, bars[i].innerHTML.indexOf("<"));
     var rest = bars[i].innerHTML.substring(bars[i].innerHTML.indexOf("<"));
+    rest = rest.replace("#", filler);
     var level = parseInt(l, 10);
     bars[i].innerHTML = "";
     for(var j = 0; j < level; j+=5){
-        bars[i].innerHTML += "#";
+        bars[i].innerHTML += filler;
     }
     bars[i].innerHTML += rest;
 }

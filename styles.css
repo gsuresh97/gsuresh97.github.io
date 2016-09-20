@@ -20,6 +20,7 @@ body {
     list-style: none;
     width: 100%;
     position: fixed;
+    /*max-height: 78px;*/
     margin-left: 0px;
     padding-left: 7%;
     padding-right: 7%;
@@ -53,7 +54,7 @@ body {
 }
 
 .description {
-    padding-top: 100px;
+    padding-top: 0px;
 }
 
 .sd {
@@ -111,7 +112,6 @@ section.job {
     height: 200px;
     margin-bottom: 50px;
     vertical-align: middle;
-    /*display: flex;*/
 }
 
 .job_title {
@@ -126,6 +126,15 @@ section.job {
     height: 200px;
 }
 
+.jd_wrapper{
+    display: table;
+    height: inherit;
+    padding-left: 1%;
+}
+
 .job_description {
-    /*vertical-align: middle;*/
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 16pt;
+    line-height: 200%;
 }
