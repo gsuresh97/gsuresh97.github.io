@@ -1,4 +1,4 @@
-var filler = "|";
+var filler = "#";
 
 var bars = document.getElementsByClassName('skill_amount');
 for(var i = 0; i  < bars.length; i++){

@@ -80,7 +80,8 @@ body {
 }
 
 .skill_amount {
-    font-size: 30px;
+    /*font-family: 'Space Mono', monospace;*/
+    font-size: 20pt;
     margin-left: 350px;
     border-style: solid;
     border-width: 2px;
@@ -110,6 +111,7 @@ h3 {
 section.job {
     width: 100%;
     height: 200px;
+    max-height: 200px;
     margin-bottom: 50px;
     vertical-align: middle;
 }
@@ -130,6 +132,7 @@ section.job {
     display: table;
     height: inherit;
     padding-left: 1%;
+    max-height: inherit;
 }
 
 .job_description {
@@ -137,4 +140,6 @@ section.job {
     vertical-align: middle;
     font-size: 16pt;
     line-height: 200%;
+    overflow:hidden;
+    max-height: inherit;
 }
